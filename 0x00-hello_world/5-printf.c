@@ -4,11 +4,11 @@ nclude <stdio.h>
 
 /**
  *
- * * main - Prints a text
+ * *prints a text
  *
  * *
  *
- * * Return: Always 0 (Success)
+ * * Return: 0
  *
  * */
 
