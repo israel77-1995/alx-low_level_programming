@@ -6,7 +6,6 @@
  * Printing
  *
  *Return: 0 (Successful)
- *
  */
 
 int main(void)
