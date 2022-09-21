@@ -1,14 +1,14 @@
-#include <stdio.h>
+nclude <stdio.h>
 
 
 
 /**
  *
- * * main - Printing
+ * *Printing
  *
  * *
  *
- * * Return: Always 0 (Successful)
+ * * Return: 0 (Successful)
  *
  * */
 
