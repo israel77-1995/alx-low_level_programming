@@ -2,7 +2,7 @@
 /**
  *
  * main - Prints the sizeof many var types
- * description - description
+ * description - descriptions
  *
  * Return: Always 0 (Success)
  */
