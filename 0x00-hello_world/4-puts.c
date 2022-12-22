@@ -1,14 +1,10 @@
-nclude <stdio.h>
-
-
+include < stdio.h >
 
 /**
- *
- * main - Printing
- *
- * Return: Always 0 (Successful)
- *
- * */
+ * main - entry point
+ * description - the starting point of the program
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
