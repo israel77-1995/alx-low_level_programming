@@ -3,7 +3,7 @@
 /**
  * main - print_putchar written by Israel
  *
- * Return: Always 0
+ * Return: 0
  */
 
 int main(void)
