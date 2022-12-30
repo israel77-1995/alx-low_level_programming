@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
- * main - print_putchar written by Israel
- *
+ * main - print_putchar
+ * is written by Izzy
  * Return: 0
- */
+*/
 
 int main(void)
 {
@@ -19,3 +18,4 @@ _putchar('r');
 _putchar('\n');
 return (0);
 }
+
