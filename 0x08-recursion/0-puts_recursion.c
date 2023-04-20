@@ -17,3 +17,7 @@ void _puts_recursion(char *s)
 		_putchar('\n');
 }
 
+int main()
+{
+	return 0;
+}
