@@ -1,21 +1,18 @@
 #include "main.h"
 
 /**
- * _puts_recursion - function to print string recursively
- * @s: parameter for string
+ * _puts_recursion - a function that prints a string, followed by a new line.
+ * @s: An input string to printing
+ * Return: Nothing
  */
 
 void _puts_recursion(char *s)
 {
-	s = "Israel"
-	if (*s == '\0')
+	if (*s)
 	{
-		_putchar('\n');
-		return;
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
-
-         putchar(*s)
-	 s++;
-	 0-puts_recursion.c(s)
+	else
+		_putchar('\n');
 }
-
