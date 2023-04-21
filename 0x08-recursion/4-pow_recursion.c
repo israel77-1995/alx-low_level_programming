@@ -1,17 +1,19 @@
 #include "main.h"
 
-
 /**
- * factorial - a function that returns the factorial of a number.
- * @n: An input integer
- * Return: The factorial of n
+ * _pow_recursion - It returns the value of x raised to the power y.
+ * @x: the base
+ * @y: the exponent
+ * Return: The result of x raised y
  */
 
-int factorial(int n)
+int _pow_recursion(int x, int y)
 {
-	if (n < 0)
-		return (-1);
-	if (n <= 1)
+	if (y == 0)
 		return (1);
-	return (n * factorial(n - 1));
+	else if (y < 0)
+		return (-1);
+	else if (y == 1)
+		return (x);
+	return (x *= _pow_recursion(x, y - 1));
 }
