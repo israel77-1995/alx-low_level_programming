@@ -5,10 +5,15 @@
  * @s: An input string to printing
  * Return: Nothing
  */
-
-
-int main()
+void _puts_recursion(char *s)
 {
-	_puts_recursion("Puts with recursion");
-	return (0);
+	if (*s)
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
+	else
+		_putchar('\n');
 }
+
+
