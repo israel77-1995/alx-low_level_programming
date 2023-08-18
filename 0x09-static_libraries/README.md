@@ -1,1 +1,0 @@
-STtatic vs dynamic librariies
