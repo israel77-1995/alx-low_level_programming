@@ -1,29 +1,21 @@
 #include "main.h"
-
 /**
- * factorial_helper - Helper function to calculate factorial recursively.
- * @n: Number to return the factorial from.
+ * _strlen_recursion - Returns the length of a string.
+ * @s: The string to be measured.
  *
- * Return: Factorial of n.
+ * Return: The length of the string.
  */
-int factorial_helper(int n, int result)
+int _strlen_recursion(char *s)
 {
-	if (n < 0)
-		return (-1); // Factorial is undefined for negative numbers
-	if (n == 0)
-		return (result); // Return the accumulated result
+	int longit = 0;
 
-	return factorial_helper(n - 1, n * result); // Recursive calculation
+	if (*s)
+	{
+		longit++;
+		longit += _strlen_recursion(s + 1);
+	}
+
+	return (longit);
 }
 
-/**
- * factorial - Returns the factorial of a number.
- * @n: Number to return the factorial from.
- *
- * Return: Factorial of n.
- */
-int factorial(int n)
-{
-	return factorial_helper(n, 1); // Call the helper function with an initial result of 1
-}
 
